@@ -11,16 +11,10 @@ const SearchBox: React.FC<SearchBox> = ({
   placeholder = "Nunce dejes de buscar",
 }) => {
   return (
-    <Form className="SearchBox" onSubmit={onSearch}>
+    <Form onSubmit={onSearch}>
       <Container>
-        <SearchInput
-          placeholder={placeholder}
-          className="SearchBox--input"
-          type="text"
-        />
-        <Button className="SearchBox--button">
-          <span>GO</span>
-        </Button>
+        <SearchInput placeholder={placeholder} />
+        <Button>GO</Button>
       </Container>
     </Form>
   );

@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import variables from "../../design-system/variables";
 
 const Box = styled.header`
-  background-color: #fff159;
+  background-color: ${variables.colors.gorse};
   padding: 20px;
 `;
 
