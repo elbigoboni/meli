@@ -1,20 +1,18 @@
 import React from "react";
-import { SearchBox } from "../SearchBox/SearchBox";
+import { SearchBox } from "../SearchBox";
+import Wrapper from "../Wrapper";
+import { Box, Logo, Row } from "./Header.styles";
 
 function Header() {
   return (
-    <header className="header">
-      <div className="container">
-        <div className="SearchBox--container">
-          <img
-            className="logo"
-            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
-            alt=""
-          />
+    <Box>
+      <Wrapper>
+        <Row>
+          <Logo src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png" />
           <SearchBox onSearch={() => alert("olar")} />
-        </div>
-      </div>
-    </header>
+        </Row>
+      </Wrapper>
+    </Box>
   );
 }
 
