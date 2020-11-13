@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Container, Form, SearchInput } from "./SearchBox.styles";
 
-interface SearchBox {
+interface SearchBoxProps {
   onSearch: () => void;
   placeholder?: string;
 }
 
-const SearchBox: React.FC<SearchBox> = ({
+const SearchBox: React.FC<SearchBoxProps> = ({
   onSearch,
   placeholder = "Nunce dejes de buscar",
 }) => {
