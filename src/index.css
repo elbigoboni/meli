@@ -8,6 +8,11 @@
     Roboto, Arial, sans-serif, sans-serif;
 }
 
+html {
+  min-width: 768px;
+  background: #eeeeee;
+}
+
 *:focus {
   outline: 0;
 }

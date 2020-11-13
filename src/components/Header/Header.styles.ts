@@ -3,7 +3,7 @@ import variables from "../../design-system/variables";
 
 const Box = styled.header`
   background-color: ${variables.colors.gorse};
-  padding: 20px;
+  padding: 10px;
 `;
 
 const Logo = styled.img`
