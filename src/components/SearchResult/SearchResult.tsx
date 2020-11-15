@@ -1,4 +1,5 @@
 import React from "react";
+import Product from "../../types/Product";
 import Divider from "../Divider";
 import {
   Box,
@@ -9,25 +10,24 @@ import {
   TextContent,
 } from "./SearchResult.styles";
 
-const SearchResult: React.FC = () => {
+interface SearchResultProps {
+  product: Product;
+}
+
+export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
   return (
     <>
       <Box>
-        <Image src="//placeimg.com/175/175" alt="" />
+        <Image src={product.image.thumb} alt="Imagem" />
         <TextContent>
-          <Title>Lorem, ipsum dolor.</Title>
-          <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sit
-            velit modi atque optio illum error quod facere animi hic?
-          </Description>
+          <Title>{product.title}</Title>
+          <Description>{product.description}</Description>
         </TextContent>
         <TextContent>
-          <Location>Lorem, ipsum dolor.</Location>
+          <Location>{product.location}</Location>
         </TextContent>
       </Box>
       <Divider />
     </>
   );
 };
-
-export { SearchResult };
