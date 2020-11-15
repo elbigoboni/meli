@@ -1,28 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Detail } from "./pages/Detail";
-import { Details } from "./pages/Details";
-import { Home } from "./pages/Home";
+import Routes from "./Routes";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Router>
-        <Switch>
-          <Route path="/" exact={true}>
-            <Home />
-          </Route>
-          <Route path="/detalhes">
-            <Details />
-          </Route>
-          <Route path="/detalhe">
-            <Detail />
-          </Route>
-        </Switch>
-      </Router>
-    </>
+      <Switch>
+        <Routes />
+      </Switch>
+    </Router>
   );
 }
 

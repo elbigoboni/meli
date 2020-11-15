@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Product from "../../types/Product";
 import Divider from "../Divider";
 import {
@@ -16,7 +17,7 @@ interface SearchResultProps {
 
 export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
   return (
-    <>
+    <Link to={`/produto/${product.slug}`}>
       <Box>
         <Image src={product.image.thumb} alt="Imagem" />
         <TextContent>
@@ -28,6 +29,6 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
         </TextContent>
       </Box>
       <Divider />
-    </>
+    </Link>
   );
 };
