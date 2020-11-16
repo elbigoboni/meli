@@ -1,4 +1,5 @@
 import React from "react";
+import Product from "../../types/Product";
 import { Button } from "../Button";
 import {
   Title,
@@ -7,29 +8,29 @@ import {
   Description,
   Image,
   Box,
+  ImageContainer,
+  ProductContainer,
+  DescriptionContainer,
 } from "./ProductDetail.styles";
 
 type ProductDetailProps = {
-  title: string;
-  description: string;
-  price: string;
-  image: string;
+  product?: Product;
 };
 
-const ProductDetail: React.FC<ProductDetailProps> = ({
-  title,
-  description,
-  price,
-  image,
-}) => (
+const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => (
   <Box>
-    <Image src={image} />
-    <Title>{title}</Title>
-    <Price>{price}</Price>
-    <Button>Comprar</Button>
-
-    <DescriptionTitle>Descripción del producto</DescriptionTitle>
-    <Description>{description}</Description>
+    <ImageContainer>
+      <Image src={product?.image.full} />
+    </ImageContainer>
+    <ProductContainer>
+      <Title>{product?.title}</Title>
+      <Price>{product?.price}</Price>
+      <Button>Comprar</Button>
+    </ProductContainer>
+    <DescriptionContainer>
+      <DescriptionTitle>Descripción del producto</DescriptionTitle>
+      <Description>{product?.description}</Description>
+    </DescriptionContainer>
   </Box>
 );
 

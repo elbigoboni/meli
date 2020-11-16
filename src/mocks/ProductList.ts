@@ -6,7 +6,7 @@ export const products: Product[] = [
     slug: "ipad-pro",
     description:
       "Seu próximo computador não é um computador. Ele é uma superfície quase mágica. Mais rápido que a maioria dos laptops PC. Com câmeras que transformam a realidade. E você pode tocar, usar com Apple Pencil, com teclado e até com trackpad. É o novo iPad Pro.",
-    price: "R$ 5893,00",
+    price: "R$ 5.893",
     location: "São Paulo",
     image: {
       full:
@@ -22,7 +22,7 @@ export const products: Product[] = [
 
     description:
       'iPhone 12 Vermelho, com Tela de 6,1”, 5G, 64 GB e Câmera Dupla de 12MP Ultra-angular + 12MP Grande-angular - MGJ73BZ/A - Apple. Características Sistema Operacional iOS 14 Tela Tamanho: 6,1"',
-    price: "R$ 7.957,62",
+    price: "R$ 7.957",
     location: "Rio de Janeiro",
     image: {
       full:
@@ -36,7 +36,7 @@ export const products: Product[] = [
     slug: "macbook-pro-15-polegadas",
     description:
       "Processadores de até 10ª geração e desempenho gráfico até 80% mais rápido. Até 32 GB de memória para usar vários apps profissionais ao mesmo tempo. Linda tela Retina com tecnologia True Tone. Magic Keyboard, Touch Bar e Touch ID para impulsionar sua produtividade.",
-    price: "R$ 20.000,00",
+    price: "R$ 9.192",
     location: "Belo Horizonte",
     image: {
       full:
@@ -52,7 +52,7 @@ export const products: Product[] = [
       "iphone-12-pro-max-128gb-grafite-ios-5g-wi-fi-tela-67-camera-12mp-12mp-12mp-sensor-lidar-apple",
     description:
       "Fotografia profissional no seu bolso. Descubra infinitas possibilidades para suas fotos com as 3 câmeras principais de sua equipe. Teste sua criatividade e jogue com iluminação, diferentes planos e efeitos para obter ótimos resultados.",
-    price: "R$ 12.350,00",
+    price: "R$ 1.350",
     location: "São Paulo",
     image: {
       full:
