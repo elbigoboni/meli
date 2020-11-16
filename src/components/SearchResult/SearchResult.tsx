@@ -8,7 +8,8 @@ import {
   Title,
   Description,
   Location,
-  TextContent,
+  ProductContent,
+  Price,
 } from "./SearchResult.styles";
 
 interface SearchResultProps {
@@ -20,13 +21,12 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
     <Link to={`/produto/${product.slug}`}>
       <Box>
         <Image src={product.image.thumb} alt="Imagem" />
-        <TextContent>
+        <ProductContent>
+          <Price>{product.price}</Price>
           <Title>{product.title}</Title>
           <Description>{product.description}</Description>
-        </TextContent>
-        <TextContent>
-          <Location>{product.location}</Location>
-        </TextContent>
+        </ProductContent>
+        <Location>{product.location}</Location>
       </Box>
       <Divider />
     </Link>
