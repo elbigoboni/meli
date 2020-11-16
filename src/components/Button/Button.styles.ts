@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import variables from "../../design-system/variables";
+import dsVariables from "../../design-system/variables";
 
 export const Button = styled.button`
   padding: 15px 25px;
@@ -8,6 +8,6 @@ export const Button = styled.button`
   font-size: 20px;
   color: white;
   border-radius: 5px;
-  background: ${variables.colors.dodgerBlue};
+  background: ${dsVariables.colors.dodgerBlue};
   cursor: pointer;
 `;

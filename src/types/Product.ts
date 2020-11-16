@@ -2,7 +2,7 @@ export default interface Product {
   title: string;
   slug: string;
   description: string;
-  price: number;
+  price: string;
   location: string;
   image: {
     full: string;

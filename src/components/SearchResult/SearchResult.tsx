@@ -5,11 +5,10 @@ import Divider from "../Divider";
 import {
   Box,
   Image,
-  Title,
-  Description,
   Location,
-  ProductContent,
   Price,
+  ProductContent,
+  Title,
 } from "./SearchResult.styles";
 
 interface SearchResultProps {
@@ -24,7 +23,6 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
         <ProductContent>
           <Price>{product.price}</Price>
           <Title>{product.title}</Title>
-          <Description>{product.description}</Description>
         </ProductContent>
         <Location>{product.location}</Location>
       </Box>

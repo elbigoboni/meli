@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import variables from "../../design-system/variables";
+import dsVariables from "../../design-system/variables";
 
 const Form = styled.form`
   background-color: white;
@@ -20,19 +20,19 @@ const SearchInput = styled.input.attrs({
   flex: 1;
   font-size: 20px;
   padding: 10px;
-  background: ${variables.colors.transparent};
+  background: ${dsVariables.colors.transparent};
 `;
 
 const Button = styled.button`
   width: 50px;
   height: 50px;
   border: 0;
-  background-color: ${variables.colors.gallery};
+  background-color: ${dsVariables.colors.gallery};
   color: black;
   &:focus,
   &:hover {
-    background-color: ${variables.colors.black};
-    color: ${variables.colors.white};
+    background-color: ${dsVariables.colors.black};
+    color: ${dsVariables.colors.white};
   }
 `;
 

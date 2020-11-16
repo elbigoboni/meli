@@ -1,26 +1,27 @@
 import styled from "styled-components";
-import variables from "../../design-system/variables";
+import dsVariables from "../../design-system/variables";
 
 export const Box = styled.div`
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: ${dsVariables.spaces.small}px;
   align-items: flex-start;
-  padding-top: 20px;
+  padding-top: ${dsVariables.spaces.small}px;
 `;
 
 export const Image = styled.img`
   border-radius: 5px;
-  margin-right: 20px;
+  margin-right: ${dsVariables.spaces.small}px;
   flex: 0;
   width: 170px;
   height: 170px;
-  margin-top: -20px;
+  margin-top: -${dsVariables.spaces.small}px;
   object-fit: contain;
+  margin-left: ${dsVariables.spaces.small}px;
 `;
 
 export const Title = styled.h3`
-  font-size: 16px;
+  font-size: 18px;
 `;
 
 export const Description = styled.p`
@@ -29,18 +30,18 @@ export const Description = styled.p`
 `;
 
 export const Location = styled.span`
-  font-size: 10px;
+  font-size: 12px;
   padding-left: 100px;
   padding-right: 200px;
-  color: ${variables.colors.dustyGray};
+  color: ${dsVariables.colors.dustyGray};
   flex: 0;
   width: 5%;
   white-space: nowrap;
 `;
 
 export const Price = styled.p`
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: ${dsVariables.spaces.medium}px;
 `;
 
 export const ProductContent = styled.div`

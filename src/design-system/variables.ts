@@ -10,10 +10,18 @@ const colors = {
   dodgerBlue: "#3483FA",
 };
 
-const variables = {
+const spaces = {
+  small: 16,
+  medium: 32,
+};
+
+const dsVariables = {
   colors: {
     ...colors,
   },
+  spaces: {
+    ...spaces,
+  },
 };
 
-export default variables;
+export default dsVariables;
