@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { span } from "../../design-system/grid";
 import dsVariables from "../../design-system/variables";
 
 export const Box = styled.div`
@@ -38,11 +39,11 @@ export const ImageContainer = styled.div`
 `;
 
 export const ProductContainer = styled.div`
-  width: calc(30% - ${dsVariables.spaces.small}px);
+  width: ${span(3, 10, dsVariables.spaces.small)};
 `;
 
 export const DescriptionContainer = styled.div`
-  width: 70%;
+  width: ${span(7)};
   margin-right: ${dsVariables.spaces.small}px;
 `;
 
