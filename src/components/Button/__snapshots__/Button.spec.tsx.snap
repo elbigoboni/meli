@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Render should render correctly 1`] = `
+<div>
+  <button
+    class="sc-bdfBwQ cMSeGt"
+  >
+    Generic button
+  </button>
+</div>
+`;
