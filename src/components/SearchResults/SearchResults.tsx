@@ -6,7 +6,7 @@ import { List } from "./SearchResults.styles";
 export const SearchResults = () => (
   <List>
     {products.map((product) => (
-      <SearchResult product={product} />
+      <SearchResult key={product.slug} product={product} />
     ))}
   </List>
 );

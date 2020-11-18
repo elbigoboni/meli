@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResult /> Render should render correctly 1`] = `
+<div>
+  <a
+    href="/item/ipad-pro"
+  >
+    <div
+      class="sc-gsTCUz izkrfR"
+    >
+      <img
+        alt="Imagem"
+        class="sc-dlfnbm cbiKsS"
+        src="https://images-submarino.b2w.io/produtos/01/00/img/1803404/3/1803404367_1SZ.jpg"
+      />
+      <div
+        class="sc-iBPRYJ ftIvGt"
+      >
+        <p
+          class="sc-gKsewC iQKNiP"
+        >
+          R$ 5.893
+        </p>
+        <h3
+          class="sc-hKgILt hogqhK"
+        >
+          iPad Pro
+        </h3>
+      </div>
+      <span
+        class="sc-jSgupP gWPVbN"
+      >
+        São Paulo
+      </span>
+    </div>
+    <hr
+      class="sc-bdfBwQ iAZiBa"
+    />
+  </a>
+</div>
+`;

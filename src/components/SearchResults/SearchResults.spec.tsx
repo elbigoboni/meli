@@ -1,15 +1,14 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import { SearchBox } from ".";
+import { SearchResults } from ".";
 
-describe("<SearchBox />", () => {
-  beforeEach(() => {
-    render(<SearchBox />, { wrapper: MemoryRouter });
-  });
+describe("<SearchResults />", () => {
   describe("Render", () => {
     test("should render correctly", () => {
-      const { container } = render(<SearchBox />, { wrapper: MemoryRouter });
+      const { container } = render(<SearchResults />, {
+        wrapper: MemoryRouter,
+      });
       expect(container).toMatchSnapshot();
     });
   });

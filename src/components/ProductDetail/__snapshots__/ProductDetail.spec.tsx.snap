@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetail /> Render should render correctly 1`] = `
+<div>
+  <div
+    class="sc-gsTCUz cIVwHc"
+  >
+    <div
+      class="sc-gKsewC iXHTOo"
+    >
+      <img
+        class="sc-pFZIQ brYlDS"
+        src="https://images-submarino.b2w.io/produtos/01/00/img/1803404/3/1803404367_1SZ.jpg"
+      />
+    </div>
+    <div
+      class="sc-iBPRYJ eHxXYq"
+    >
+      <h1
+        class="sc-dlfnbm FLZNm"
+      >
+        iPad Pro
+      </h1>
+      <p
+        class="sc-hKgILt RUpaM"
+      >
+        R$ 5.893
+      </p>
+      <button
+        class="sc-bdfBwQ cMSeGt"
+      >
+        Comprar
+      </button>
+    </div>
+    <div
+      class="sc-fubCfw gOFgOY"
+    >
+      <h2
+        class="sc-eCssSg cypuFD"
+      >
+        Descripción del producto
+      </h2>
+      <p
+        class="sc-jSgupP esWSIU"
+      >
+        Seu próximo computador não é um computador. Ele é uma superfície quase mágica. Mais rápido que a maioria dos laptops PC. Com câmeras que transformam a realidade. E você pode tocar, usar com Apple Pencil, com teclado e até com trackpad. É o novo iPad Pro.
+      </p>
+    </div>
+  </div>
+</div>
+`;

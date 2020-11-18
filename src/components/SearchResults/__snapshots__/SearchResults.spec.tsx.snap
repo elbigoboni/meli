@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResults /> Render should render correctly 1`] = `
+<div>
+  <div
+    class="sc-fubCfw iaiWza"
+  >
+    <a
+      href="/item/ipad-pro"
+    >
+      <div
+        class="sc-gsTCUz izkrfR"
+      >
+        <img
+          alt="Imagem"
+          class="sc-dlfnbm cbiKsS"
+          src="https://images-submarino.b2w.io/produtos/01/00/img/1803404/3/1803404367_1SZ.jpg"
+        />
+        <div
+          class="sc-iBPRYJ ftIvGt"
+        >
+          <p
+            class="sc-gKsewC iQKNiP"
+          >
+            R$ 5.893
+          </p>
+          <h3
+            class="sc-hKgILt hogqhK"
+          >
+            iPad Pro
+          </h3>
+        </div>
+        <span
+          class="sc-jSgupP gWPVbN"
+        >
+          São Paulo
+        </span>
+      </div>
+      <hr
+        class="sc-bdfBwQ iAZiBa"
+      />
+    </a>
+    <a
+      href="/item/iphone-12-64gb-vermelho-ios-5g-wi-fi-tela-61-camera-12mp-12mp-apple"
+    >
+      <div
+        class="sc-gsTCUz izkrfR"
+      >
+        <img
+          alt="Imagem"
+          class="sc-dlfnbm cbiKsS"
+          src="https://a-static.mlcdn.com.br/1500x1500/iphone-12-vermelho-com-tela-de-61-5g-64-gb-e-camera-dupla-de-12mp-ultra-angular-12mp-grande-angular-mgj73bz-a-apple/fastshop2/aemgj73bzavrmb/70d86bae2de6baeca554b7a3077c9b22.jpg"
+        />
+        <div
+          class="sc-iBPRYJ ftIvGt"
+        >
+          <p
+            class="sc-gKsewC iQKNiP"
+          >
+            R$ 7.957
+          </p>
+          <h3
+            class="sc-hKgILt hogqhK"
+          >
+            iPhone 12 64GB Vermelho iOS 5G Wi-Fi Tela 6.1" Câmera - 12MP + 12MP - Apple
+          </h3>
+        </div>
+        <span
+          class="sc-jSgupP gWPVbN"
+        >
+          Rio de Janeiro
+        </span>
+      </div>
+      <hr
+        class="sc-bdfBwQ iAZiBa"
+      />
+    </a>
+    <a
+      href="/item/macbook-pro-15-polegadas"
+    >
+      <div
+        class="sc-gsTCUz izkrfR"
+      >
+        <img
+          alt="Imagem"
+          class="sc-dlfnbm cbiKsS"
+          src="https://images-submarino.b2w.io/produtos/01/00/img/1747786/3/1747786321_1SZ.jpg"
+        />
+        <div
+          class="sc-iBPRYJ ftIvGt"
+        >
+          <p
+            class="sc-gKsewC iQKNiP"
+          >
+            R$ 9.192
+          </p>
+          <h3
+            class="sc-hKgILt hogqhK"
+          >
+            MacBook Pro 15 polegadas
+          </h3>
+        </div>
+        <span
+          class="sc-jSgupP gWPVbN"
+        >
+          Belo Horizonte
+        </span>
+      </div>
+      <hr
+        class="sc-bdfBwQ iAZiBa"
+      />
+    </a>
+    <a
+      href="/item/iphone-12-pro-max-128gb-grafite-ios-5g-wi-fi-tela-67-camera-12mp-12mp-12mp-sensor-lidar-apple"
+    >
+      <div
+        class="sc-gsTCUz izkrfR"
+      >
+        <img
+          alt="Imagem"
+          class="sc-dlfnbm cbiKsS"
+          src="https://http2.mlstatic.com/D_NQ_NP_655655-MLA43976550450_112020-O.jpg"
+        />
+        <div
+          class="sc-iBPRYJ ftIvGt"
+        >
+          <p
+            class="sc-gKsewC iQKNiP"
+          >
+            R$ 1.350
+          </p>
+          <h3
+            class="sc-hKgILt hogqhK"
+          >
+            iPhone 12 Pro Max 128GB Grafite iOS 5G Wi-Fi Tela 6.7" Câmera - 12MP + 12MP + 12MP + Sensor LiDAR - Apple
+          </h3>
+        </div>
+        <span
+          class="sc-jSgupP gWPVbN"
+        >
+          São Paulo
+        </span>
+      </div>
+      <hr
+        class="sc-bdfBwQ iAZiBa"
+      />
+    </a>
+  </div>
+</div>
+`;
