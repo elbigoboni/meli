@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Routes /> Render should render correctly 1`] = `
+<div>
+  <header
+    class="sc-jrAGrp jMohKD"
+  />
+</div>
+`;

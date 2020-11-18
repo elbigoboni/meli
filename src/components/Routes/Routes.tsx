@@ -1,8 +1,8 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import { Detail } from "./pages/Detail";
-import { Details } from "./pages/Details";
-import { Home } from "./pages/Home";
+import { Detail } from "../../pages/Detail";
+import { Details } from "../../pages/Details";
+import { Home } from "../../pages/Home";
 
 const Routes: React.FC = () => (
   <>
@@ -18,4 +18,4 @@ const Routes: React.FC = () => (
   </>
 );
 
-export default Routes;
+export { Routes };
