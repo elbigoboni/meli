@@ -11,6 +11,7 @@ exports[`<SearchBox /> Render should render correctly 1`] = `
     >
       <input
         class="sc-gsTCUz iPwkQd"
+        data-testid="search field"
         placeholder="Nunce dejes de buscar"
         type="text"
         value=""

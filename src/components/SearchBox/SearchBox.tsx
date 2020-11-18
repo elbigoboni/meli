@@ -13,15 +13,17 @@ const SearchBox: React.FC<SearchBoxProps> = ({
   const history = useHistory();
   const onSearchHandler = (e: any) => {
     e.preventDefault();
-    console.log("oi");
     history.push(`/items/${query}`);
   };
   return (
     <Form data-testid="search box" onSubmit={onSearchHandler}>
       <Container>
         <SearchInput
+          data-testid="search field"
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => {
+            setQuery(event.target.value);
+          }}
           placeholder={placeholder}
         />
         <Button>GO</Button>
