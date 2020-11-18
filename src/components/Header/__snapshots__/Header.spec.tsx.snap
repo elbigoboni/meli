@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Render should render correctly 1`] = `
+<div>
+  <header
+    class="sc-jSgupP gRFoCY"
+  >
+    <header
+      class="sc-eCssSg dznMVN"
+    >
+      <div
+        class="sc-iBPRYJ iUImDk"
+      >
+        <a
+          data-testid="link to home"
+          href="/"
+        >
+          <img
+            class="sc-gKsewC fVMCuu"
+            data-testid="logo"
+            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
+          />
+        </a>
+        <form
+          class="sc-bdfBwQ ggUMEn"
+          data-testid="search box"
+        >
+          <div
+            class="sc-hKgILt gFyfpC"
+          >
+            <input
+              class="sc-gsTCUz iPwkQd"
+              placeholder="Nunce dejes de buscar"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-dlfnbm daFmpW"
+            >
+              GO
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+  </header>
+</div>
+`;

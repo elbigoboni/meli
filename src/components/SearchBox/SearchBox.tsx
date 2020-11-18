@@ -3,22 +3,21 @@ import { useHistory } from "react-router-dom";
 import { Button, Container, Form, SearchInput } from "./SearchBox.styles";
 
 interface SearchBoxProps {
-  onSearch: () => void;
   placeholder?: string;
 }
 
 const SearchBox: React.FC<SearchBoxProps> = ({
-  onSearch,
   placeholder = "Nunce dejes de buscar",
 }) => {
   const [query, setQuery] = useState("");
   const history = useHistory();
   const onSearchHandler = (e: any) => {
     e.preventDefault();
-    history.push(`/resultados/${query}`);
+    console.log("oi");
+    history.push(`/items/${query}`);
   };
   return (
-    <Form onSubmit={onSearchHandler}>
+    <Form data-testid="search box" onSubmit={onSearchHandler}>
       <Container>
         <SearchInput
           value={query}

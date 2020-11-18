@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> Render should render correctly 1`] = `
+<div>
+  <form
+    class="sc-bdfBwQ ggUMEn"
+    data-testid="search box"
+  >
+    <div
+      class="sc-hKgILt gFyfpC"
+    >
+      <input
+        class="sc-gsTCUz iPwkQd"
+        placeholder="Nunce dejes de buscar"
+        type="text"
+        value=""
+      />
+      <button
+        class="sc-dlfnbm daFmpW"
+      >
+        GO
+      </button>
+    </div>
+  </form>
+</div>
+`;

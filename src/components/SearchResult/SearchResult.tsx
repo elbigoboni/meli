@@ -17,7 +17,7 @@ interface SearchResultProps {
 
 export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
   return (
-    <Link to={`/produto/${product.slug}`}>
+    <Link to={`/item/${product.slug}`}>
       <Box>
         <Image src={product.image.thumb} alt="Imagem" />
         <ProductContent>

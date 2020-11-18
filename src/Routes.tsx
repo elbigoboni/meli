@@ -9,10 +9,10 @@ const Routes: React.FC = () => (
     <Route path="/" exact={true}>
       <Home />
     </Route>
-    <Route path="/resultados/:query" exact={true}>
+    <Route path="/items/:query" exact={true}>
       <Details />
     </Route>
-    <Route path="/produto/:slug" exact={true}>
+    <Route path="/item/:slug" exact={true}>
       <Detail />
     </Route>
   </>
