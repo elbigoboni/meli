@@ -9,6 +9,7 @@ import {
   Price,
   ProductContent,
   Title,
+  ImageContent,
 } from "./SearchResult.styles";
 
 interface SearchResultProps {
@@ -19,7 +20,9 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
   return (
     <Link to={`/item/${product.item.id}`}>
       <Box>
-        <Image src={product.item.thumbnail} alt="Imagem" />
+        <ImageContent>
+          <Image src={product.item.thumbnail} alt="Imagem" />
+        </ImageContent>
         <ProductContent>
           <Price>
             {product.item.price.currency} {product.item.price.amount}

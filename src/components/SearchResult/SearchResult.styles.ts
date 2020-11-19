@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { span } from "../../design-system/grid";
 import dsVariables from "../../design-system/variables";
 
 export const Box = styled.div`
@@ -9,15 +10,19 @@ export const Box = styled.div`
   padding-top: ${dsVariables.spaces.small}px;
 `;
 
+export const ImageContent = styled.div`
+  width: ${span(2)};
+  margin-right: ${dsVariables.spaces.small}px;
+  margin-top: -${dsVariables.spaces.small}px;
+  margin-left: ${dsVariables.spaces.small}px;
+`;
+
 export const Image = styled.img`
   border-radius: 5px;
-  margin-right: ${dsVariables.spaces.small}px;
   flex: 0;
   width: 170px;
   height: 170px;
-  margin-top: -${dsVariables.spaces.small}px;
   object-fit: contain;
-  margin-left: ${dsVariables.spaces.small}px;
 `;
 
 export const Title = styled.h3`
@@ -35,7 +40,7 @@ export const Location = styled.span`
   padding-right: 200px;
   color: ${dsVariables.colors.dustyGray};
   flex: 0;
-  width: 5%;
+  width: ${span(2)};
   white-space: nowrap;
 `;
 
