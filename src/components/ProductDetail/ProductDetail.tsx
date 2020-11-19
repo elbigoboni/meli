@@ -20,16 +20,16 @@ type ProductDetailProps = {
 const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => (
   <Box>
     <ImageContainer>
-      <Image src={product?.image.full} />
+      <Image src={product?.item.thumbnail} />
     </ImageContainer>
     <ProductContainer>
-      <Title>{product?.title}</Title>
-      <Price>{product?.price}</Price>
+      <Title>{product?.item.title}</Title>
+      <Price>{product?.item.price}</Price>
       <Button>Comprar</Button>
     </ProductContainer>
     <DescriptionContainer>
       <DescriptionTitle>Descripción del producto</DescriptionTitle>
-      <Description>{product?.description}</Description>
+      <Description>{"desc"}</Description>
     </DescriptionContainer>
   </Box>
 );

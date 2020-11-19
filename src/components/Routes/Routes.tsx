@@ -12,7 +12,7 @@ const Routes: React.FC = () => (
     <Route path="/items/:query" exact={true}>
       <Details />
     </Route>
-    <Route path="/item/:slug" exact={true}>
+    <Route path="/item/:id" exact={true}>
       <Detail />
     </Route>
   </>
