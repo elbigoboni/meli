@@ -11,6 +11,7 @@ export default interface Product {
       amount: number;
       currency: string;
     };
+    location: string;
     condition: string;
     free_shipping: boolean;
   };

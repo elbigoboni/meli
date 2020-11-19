@@ -26,7 +26,7 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
           </Price>
           <Title>{product.item.title}</Title>
         </ProductContent>
-        <Location>{"location"}</Location>
+        <Location>{product.item.location}</Location>
       </Box>
       <Divider />
     </Link>
