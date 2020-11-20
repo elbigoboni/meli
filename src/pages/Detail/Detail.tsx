@@ -1,10 +1,8 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { ProductDetail } from "../../components/ProductDetail";
 import { Wrapper } from "../../components/Wrapper";
-import Product from "../../types/Product";
 
-const Detail: React.FC = () => {
+const PageDetail: React.FC = () => {
   return (
     <>
       <Wrapper>
@@ -14,4 +12,4 @@ const Detail: React.FC = () => {
   );
 };
 
-export { Detail };
+export { PageDetail };

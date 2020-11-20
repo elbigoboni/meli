@@ -1,7 +1,7 @@
 import React from "react";
 import { Wrapper } from "../../components/Wrapper";
 
-const Home: React.FC = () => {
+const PageHome: React.FC = () => {
   return (
     <>
       <Wrapper></Wrapper>
@@ -9,4 +9,4 @@ const Home: React.FC = () => {
   );
 };
 
-export { Home };
+export { PageHome };

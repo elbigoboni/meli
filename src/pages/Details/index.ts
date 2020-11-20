@@ -1,3 +1,3 @@
-import { Details } from "./Details";
+import { PageDetails } from "./Details";
 
-export { Details };
+export { PageDetails };
