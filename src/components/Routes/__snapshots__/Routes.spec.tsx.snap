@@ -3,7 +3,50 @@
 exports[`<Routes /> Render should render correctly 1`] = `
 <div>
   <header
-    class="sc-pFZIQ hJgVwT"
+    class="sc-bqyKva bBlROV"
+  >
+    <header
+      class="sc-jrAGrp jMohKD"
+    >
+      <div
+        class="sc-hBEYos hpcRDQ"
+      >
+        <a
+          data-testid="link to home"
+          href="/"
+        >
+          <img
+            class="sc-kstrdz ddnAJU"
+            data-testid="logo"
+            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
+          />
+        </a>
+        <form
+          class="sc-kEjbxe kYBjZU"
+          data-testid="search box"
+        >
+          <div
+            class="sc-dQppl mtvZO"
+          >
+            <input
+              class="sc-iqHYGH xWSiH"
+              data-testid="search field"
+              placeholder="Nunce dejes de buscar"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-crrsfI gCVxjO"
+            >
+              GO
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+  </header>
+  <header
+    class="sc-jrAGrp jMohKD"
   />
 </div>
 `;

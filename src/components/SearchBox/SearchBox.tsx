@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import { Button, Container, Form, SearchInput } from "./SearchBox.styles";
 
 interface SearchBoxProps {
@@ -11,6 +11,7 @@ const SearchBox: React.FC<SearchBoxProps> = ({
 }) => {
   const [query, setQuery] = useState("");
   const history = useHistory();
+
   const onSearchHandler = (e: any) => {
     e.preventDefault();
     history.push(`/items/${query}`);

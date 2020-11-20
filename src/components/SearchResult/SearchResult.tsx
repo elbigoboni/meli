@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Product from "../../types/Product";
+import { Currency } from "../Currency";
 import { Divider } from "../Divider";
 import {
   Box,
@@ -25,7 +26,10 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
         </ImageContent>
         <ProductContent>
           <Price>
-            {product.item.price.currency} {product.item.price.amount}
+            <Currency
+              currency={product.item.price.currency}
+              value={product.item.price.amount}
+            />
           </Price>
           <Title>{product.item.title}</Title>
         </ProductContent>
