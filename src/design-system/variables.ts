@@ -8,6 +8,7 @@ const colors = {
   white: "#ffffff",
   transparent: "transparent",
   dodgerBlue: "#3483FA",
+  mariner: "#286bcf",
 };
 
 const spaces = {

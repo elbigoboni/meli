@@ -129,7 +129,9 @@ table {
 }
 
 * {
-  transition: 250ms ease;
+  transition: 500ms ease;
+  transition-timing-function: cubic-bezier(0, 1.005, 0.02, 0.87); /* custom */
+
   box-sizing: border-box;
 }
 

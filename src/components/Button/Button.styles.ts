@@ -9,13 +9,15 @@ export const Button = styled.button`
   color: white;
   border-radius: 5px;
   background: ${dsVariables.colors.dodgerBlue};
+  border-bottom: 4px solid ${dsVariables.colors.white};
   cursor: pointer;
   border: 0;
   &:focus,
   &:hover {
-    filter: brightness(120%);
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1),
-      0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(0.99);
+    filter: brightness(110%);
+    border-bottom: 4px solid ${dsVariables.colors.mariner};
+  }
+  &:active {
+    transform: scale(0.95);
   }
 `;

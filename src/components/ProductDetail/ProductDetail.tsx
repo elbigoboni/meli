@@ -80,7 +80,11 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
         </ProductContainer>
         <DescriptionContainer>
           <DescriptionTitle>Descripción del producto</DescriptionTitle>
-          <Description>{"desc"}</Description>
+          <Description>
+            {
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dignissimos in, voluptatem ducimus tenetur ipsum exercitationem beatae, quis mollitia eligendi repellat unde. Eius suscipit illo facere ex error accusantium quia voluptate, odit necessitatibus totam voluptatum repudiandae eum? Asperiores doloribus tempore fugiat nemo unde amet exercitationem quo cumque quam provident saepe, eum dolore adipisci beatae ab id optio molestiae eaque accusamus, quaerat, quibusdam perferendis! Excepturi aperiam recusandae ad culpa odio qui aliquam, earum saepe? Omnis qui adipisci eos placeat modi expedita animi, neque, inventore, dolorum doloremque a esse non voluptatum sint eius eligendi natus tenetur mollitia quidem voluptas odio delectus tempora?"
+            }
+          </Description>
         </DescriptionContainer>
       </Box>
     </>

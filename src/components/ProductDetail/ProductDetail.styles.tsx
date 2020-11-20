@@ -30,6 +30,7 @@ export const DescriptionTitle = styled.h2`
 export const Description = styled.p`
   font-size: 16px;
   color: ${dsVariables.colors.dustyGray};
+  line-height: 1.5;
 `;
 
 export const ImageContainer = styled.div`

@@ -5,9 +5,16 @@ import dsVariables from "../../design-system/variables";
 export const Box = styled.div`
   display: flex;
   width: 100%;
-  margin-bottom: ${dsVariables.spaces.small}px;
   align-items: flex-start;
+  padding-bottom: ${dsVariables.spaces.small}px;
   padding-top: ${dsVariables.spaces.small}px;
+  border-radius: 5px;
+  &:hover {
+    background: white;
+    transform: scale(1.07);
+    box-shadow: 0px 5px 200px 0px rgba(0, 0, 0, 0.1),
+      0px 10px 100px 0px rgba(0, 0, 0, 0.1);
+  }
 `;
 
 export const ImageContent = styled.div`
@@ -23,15 +30,12 @@ export const Image = styled.img`
   width: 170px;
   height: 170px;
   object-fit: contain;
+  margin-top: ${dsVariables.spaces.small}px;
 `;
 
 export const Title = styled.h3`
   font-size: 18px;
-`;
-
-export const Description = styled.p`
-  font-size: 14px;
-  text-align: justify;
+  width: 80%;
 `;
 
 export const Location = styled.span`
@@ -44,9 +48,18 @@ export const Location = styled.span`
   white-space: nowrap;
 `;
 
+export const FreeShipping = styled.img.attrs({
+  src: "/images/ic_shipping@2x.png",
+})`
+  width: 22px;
+  margin-left: ${dsVariables.spaces.small / 2}px;
+`;
+
 export const Price = styled.p`
-  font-size: 24px;
+  font-size: 25px;
   margin-bottom: ${dsVariables.spaces.medium}px;
+  display: flex;
+  align-items: center;
 `;
 
 export const ProductContent = styled.div`

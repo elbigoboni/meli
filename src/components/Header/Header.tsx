@@ -9,10 +9,7 @@ const Header: React.FC = () => (
     <Wrapper>
       <Row>
         <Link to="/" data-testid="link to home">
-          <Logo
-            data-testid="logo"
-            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
-          />
+          <Logo data-testid="logo" src="/images/Logo_ML@2x.png" />
         </Link>
         <SearchBox />
       </Row>

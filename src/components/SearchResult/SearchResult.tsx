@@ -11,6 +11,7 @@ import {
   ProductContent,
   Title,
   ImageContent,
+  FreeShipping,
 } from "./SearchResult.styles";
 
 interface SearchResultProps {
@@ -30,6 +31,7 @@ export const SearchResult: React.FC<SearchResultProps> = ({ product }) => {
               currency={product.item.price.currency}
               value={product.item.price.amount}
             />
+            {product.item.free_shipping && <FreeShipping />}
           </Price>
           <Title>{product.item.title}</Title>
         </ProductContent>

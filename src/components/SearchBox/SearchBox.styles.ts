@@ -9,7 +9,6 @@ const Form = styled.form`
   &:focus-within {
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1),
       0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(0.99);
   }
 `;
 
@@ -18,7 +17,7 @@ const SearchInput = styled.input.attrs({
 })`
   border: 0;
   flex: 1;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px;
   background: ${dsVariables.colors.transparent};
 `;
@@ -29,6 +28,7 @@ const Button = styled.button`
   border: 0;
   background-color: ${dsVariables.colors.gallery};
   color: black;
+  cursor: pointer;
   &:focus,
   &:hover {
     background-color: ${dsVariables.colors.black};

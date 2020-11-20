@@ -9,6 +9,8 @@ export const Currency: React.FC<PriceProps> = ({ currency, value }) => {
   const valueFormatted = new Intl.NumberFormat("es-AR", {
     style: "currency",
     currency,
-  }).format(value);
+  })
+    .format(value)
+    .replace(/\D00$/, "");
   return <>{`${valueFormatted}`}</>;
 };
