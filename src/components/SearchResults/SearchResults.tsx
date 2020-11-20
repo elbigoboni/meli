@@ -17,7 +17,7 @@ export const SearchResults = () => {
     getProducts();
   }, [searchTerm]);
 
-  if (!products.length) return <List>carregando!</List>;
+  if (!products.length) return <List></List>;
   return (
     <List>
       {products.map((product: Product) => (
