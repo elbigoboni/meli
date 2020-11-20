@@ -34,7 +34,7 @@ export const Description = styled.p`
 
 export const ImageContainer = styled.div`
   width: 70%;
-  margin-bottom: ${dsVariables.spaces.small}px;
+  margin-bottom: ${dsVariables.spaces.small * 4}px;
   margin-right: ${dsVariables.spaces.small}px;
 `;
 

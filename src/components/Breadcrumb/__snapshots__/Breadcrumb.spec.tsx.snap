@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> Render should render correctly 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ cgnLdY"
+  >
+    Eletrônica, Audio y Video › iPod › Reproductores › iPod touch
+     
+     › 
+     
+    <em
+      class="sc-gsTCUz bCQwq"
+    >
+      32gb
+    </em>
+  </div>
+</div>
+`;

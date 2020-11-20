@@ -7,7 +7,7 @@ interface SearchBoxProps {
 }
 
 const SearchBox: React.FC<SearchBoxProps> = ({
-  placeholder = "Nunce dejes de buscar",
+  placeholder = "Nunca dejes de buscar",
 }) => {
   const [query, setQuery] = useState("");
   const history = useHistory();

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Breadcrumb } from "../Breadcrumb";
 import { Button } from "../Button";
 import { Currency } from "../Currency";
 import {
@@ -53,25 +54,36 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
 
   if (!loaded) return <></>;
   return (
-    <Box>
-      <ImageContainer>
-        <Image src={product.item.thumbnail} />
-      </ImageContainer>
-      <ProductContainer>
-        <Title>{product.item.title}</Title>
-        <Price>
-          <Currency
-            currency={product.item.price.currency}
-            value={product.item.price.amount}
-          ></Currency>
-        </Price>
-        <Button>Comprar</Button>
-      </ProductContainer>
-      <DescriptionContainer>
-        <DescriptionTitle>Descripción del producto</DescriptionTitle>
-        <Description>{"desc"}</Description>
-      </DescriptionContainer>
-    </Box>
+    <>
+      <Breadcrumb
+        path={[
+          "Eletrônica, Audio y Video",
+          "iPod",
+          "Reproductores",
+          "iPod touch",
+          "32gb",
+        ]}
+      />
+      <Box>
+        <ImageContainer>
+          <Image src={product.item.thumbnail} />
+        </ImageContainer>
+        <ProductContainer>
+          <Title>{product.item.title}</Title>
+          <Price>
+            <Currency
+              currency={product.item.price.currency}
+              value={product.item.price.amount}
+            ></Currency>
+          </Price>
+          <Button>Comprar</Button>
+        </ProductContainer>
+        <DescriptionContainer>
+          <DescriptionTitle>Descripción del producto</DescriptionTitle>
+          <Description>{"desc"}</Description>
+        </DescriptionContainer>
+      </Box>
+    </>
   );
 };
 export { ProductDetail };

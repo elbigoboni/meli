@@ -10,5 +10,5 @@ export const Currency: React.FC<PriceProps> = ({ currency, value }) => {
     style: "currency",
     currency,
   }).format(value);
-  return <>{`${currency} ${valueFormatted}`}</>;
+  return <>{`${valueFormatted}`}</>;
 };

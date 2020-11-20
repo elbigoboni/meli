@@ -4,8 +4,6 @@ exports[`<SearchResults /> Render should render correctly 1`] = `
 <div>
   <div
     class="sc-pFZIQ cVTXvV"
-  >
-    carregando!
-  </div>
+  />
 </div>
 `;

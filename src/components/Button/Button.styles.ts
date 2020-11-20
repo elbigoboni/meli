@@ -10,4 +10,12 @@ export const Button = styled.button`
   border-radius: 5px;
   background: ${dsVariables.colors.dodgerBlue};
   cursor: pointer;
+  border: 0;
+  &:focus,
+  &:hover {
+    filter: brightness(120%);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    transform: scale(0.99);
+  }
 `;
