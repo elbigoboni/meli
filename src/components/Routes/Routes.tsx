@@ -7,14 +7,16 @@ import { Header } from "../Header";
 
 const Routes: React.FC = () => (
   <>
-    <Header />
     <Route path="/" exact={true}>
+      <Header />
       <Home />
     </Route>
     <Route path="/items/:s" exact={true}>
+      <Header />
       <Details />
     </Route>
     <Route path="/item/:id" exact={true}>
+      <Header />
       <Detail />
     </Route>
   </>
