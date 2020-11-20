@@ -1,6 +1,6 @@
-export default interface Product {
+export default interface ProductInteface {
   author: {
-    name: string;
+    name?: string;
   };
   item: {
     id: string;

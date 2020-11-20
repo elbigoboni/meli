@@ -5,18 +5,13 @@ import { Wrapper } from "../../components/Wrapper";
 import Product from "../../types/Product";
 
 const Detail: React.FC = () => {
-  // const { slug }: any = useParams();
-  // const product = products.find(
-  //   (productItem: Product) => productItem.slug === slug
-  // );
-  // return (
-  //   <>
-  //     <Wrapper>
-  //       <ProductDetail product={product} />
-  //     </Wrapper>
-  //   </>
-  // );
-  return <></>;
+  return (
+    <>
+      <Wrapper>
+        <ProductDetail productId={"MLA847744939"} />
+      </Wrapper>
+    </>
+  );
 };
 
 export { Detail };
