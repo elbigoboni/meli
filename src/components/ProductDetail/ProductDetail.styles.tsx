@@ -18,7 +18,6 @@ export const Title = styled.h1`
 
 export const Extra = styled.span`
   font-size: 14px;
-  margin-top: ${dsVariables.spaces.medium}px;
   margin-bottom: ${dsVariables.spaces.small}px;
   display: block;
 `;
