@@ -58,4 +58,5 @@ export const ProductDetailMock: ProductDetailInteface = {
     condition: "new",
     free_shipping: true,
   },
+  sold_quantity: 12,
 };

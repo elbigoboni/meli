@@ -9,6 +9,7 @@ import {
   Description,
   DescriptionContainer,
   DescriptionTitle,
+  Extra,
   Image,
   ImageContainer,
   Price,
@@ -40,12 +41,15 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
           <Image src={product.item.thumbnail} />
         </ImageContainer>
         <ProductContainer>
+          <Extra>
+            {product.item.condition} - {product.sold_quantity} vendidos
+          </Extra>
           <Title>{product.item.title}</Title>
           <Price>
             <Currency
               currency={product.item.price.currency}
               value={product.item.price.amount}
-            ></Currency>
+            />
           </Price>
           <Button>Comprar</Button>
         </ProductContainer>

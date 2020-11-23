@@ -16,6 +16,13 @@ export const Title = styled.h1`
   margin-bottom: ${dsVariables.spaces.medium}px;
 `;
 
+export const Extra = styled.span`
+  font-size: 14px;
+  margin-top: ${dsVariables.spaces.medium}px;
+  margin-bottom: ${dsVariables.spaces.small}px;
+  display: block;
+`;
+
 export const Price = styled.p`
   font-size: 46px;
   margin-bottom: ${dsVariables.spaces.medium}px;

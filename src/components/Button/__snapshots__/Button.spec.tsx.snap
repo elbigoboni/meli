@@ -3,7 +3,7 @@
 exports[`<Button /> Render should render correctly 1`] = `
 <div>
   <button
-    class="sc-bdfBwQ kevamn"
+    class="sc-bdfBwQ fQfPmw"
   >
     Generic button
   </button>

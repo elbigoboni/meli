@@ -3,40 +3,40 @@
 exports[`<Routes /> Render should render correctly 1`] = `
 <div>
   <header
-    class="sc-iJuUWI kNRSja"
+    class="sc-giIncl ewavRJ"
   >
     <header
-      class="sc-iqHYGH fCINnt"
+      class="sc-crrsfI UTahY"
     >
       <div
-        class="sc-ezrdKe kShTdh"
+        class="sc-bYEvPH hgogMm"
       >
         <a
           data-testid="link to home"
           href="/"
         >
           <img
-            class="sc-giIncl fhSfPO"
+            class="sc-ezrdKe heJdPP"
             data-testid="logo"
             src="/images/Logo_ML@2x.png"
           />
         </a>
         <form
-          class="sc-bBXqnf joqZBh"
+          class="sc-iwyYcG jIlhmi"
           data-testid="search box"
         >
           <div
-            class="sc-lmoMRL kzUTia"
+            class="sc-iJuUWI JKMUy"
           >
             <input
-              class="sc-iwyYcG jCDFlQ"
+              class="sc-cxFLnm fQkIjQ"
               data-testid="search field"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-cxFLnm cqWXAG"
+              class="sc-lmoMRL dlarJl"
               type="submit"
             >
               Pesquisar
@@ -47,10 +47,10 @@ exports[`<Routes /> Render should render correctly 1`] = `
     </header>
   </header>
   <header
-    class="sc-iqHYGH fCINnt"
+    class="sc-crrsfI UTahY"
   >
     <img
-      class="sc-fKFyDc dqlKDa"
+      class="sc-bBXqnf dvlzMi"
       src="/images/shopping.svg"
     />
   </header>
