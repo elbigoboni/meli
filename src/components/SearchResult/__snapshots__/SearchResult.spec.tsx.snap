@@ -24,9 +24,8 @@ exports[`<SearchResult /> Render should render correctly 1`] = `
           class="sc-iBPRYJ dWHJvy"
         >
           ARS 1,200
-          <img
-            class="sc-gKsewC eZieap"
-            src="/images/ic_shipping@2x.png"
+          <div
+            class="sc-gKsewC kCoKrp"
           />
         </p>
         <h3

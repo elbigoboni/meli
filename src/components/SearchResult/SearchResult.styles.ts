@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { span } from "../../design-system/grid";
+import { asset } from "../../design-system/util";
 import dsVariables from "../../design-system/variables";
 
 export const Box = styled.div`
@@ -49,10 +50,8 @@ export const Location = styled.span`
   white-space: nowrap;
 `;
 
-export const FreeShipping = styled.img.attrs({
-  src: "/images/ic_shipping@2x.png",
-})`
-  width: 22px;
+export const FreeShipping = styled.div`
+  ${asset("ic_shipping", 18, 18)}
   margin-left: ${dsVariables.spaces.small / 2}px;
 `;
 
