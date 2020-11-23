@@ -22,10 +22,7 @@ describe("<Header />", () => {
     });
     test("should render logo correctly", () => {
       const logo = screen.getByTestId("logo");
-      expect(logo).toHaveAttribute(
-        "src",
-        "https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
-      );
+      expect(logo).toHaveAttribute("src", "/images/Logo_ML@2x.png");
     });
     test("should render <SearchBox />", () => {
       const searchBox = screen.getByTestId("search box");

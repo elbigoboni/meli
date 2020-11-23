@@ -3,34 +3,42 @@
 exports[`<SearchResult /> Render should render correctly 1`] = `
 <div>
   <a
-    href="/item/ipad-pro"
+    href="/item/ml1762712761"
   >
     <div
-      class="sc-gsTCUz izkrfR"
+      class="sc-gsTCUz blUEQb"
     >
-      <img
-        alt="Imagem"
-        class="sc-dlfnbm cbiKsS"
-        src="https://images-submarino.b2w.io/produtos/01/00/img/1803404/3/1803404367_1SZ.jpg"
-      />
       <div
-        class="sc-iBPRYJ ftIvGt"
+        class="sc-dlfnbm gnaxzg"
+      >
+        <img
+          alt="Imagem"
+          class="sc-hKgILt jqJVDO"
+          src="string"
+        />
+      </div>
+      <div
+        class="sc-fubCfw AHFDg"
       >
         <p
-          class="sc-gKsewC iQKNiP"
+          class="sc-iBPRYJ dWHJvy"
         >
-          R$ 5.893
+          ARS 1,200
+          <img
+            class="sc-gKsewC eZieap"
+            src="/images/ic_shipping@2x.png"
+          />
         </p>
         <h3
-          class="sc-hKgILt hogqhK"
+          class="sc-eCssSg hMINUV"
         >
-          iPad Pro
+          macbook
         </h3>
       </div>
       <span
-        class="sc-jSgupP gWPVbN"
+        class="sc-jSgupP iqPXKI"
       >
-        São Paulo
+        Buenos Aires
       </span>
     </div>
     <hr
