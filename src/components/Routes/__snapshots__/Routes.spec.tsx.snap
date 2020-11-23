@@ -22,7 +22,7 @@ exports[`<Routes /> Render should render correctly 1`] = `
           />
         </a>
         <form
-          class="sc-bBXqnf hoySHm"
+          class="sc-bBXqnf joqZBh"
           data-testid="search box"
         >
           <div
@@ -36,9 +36,10 @@ exports[`<Routes /> Render should render correctly 1`] = `
               value=""
             />
             <button
-              class="sc-cxFLnm fuqZhF"
+              class="sc-cxFLnm cqWXAG"
+              type="submit"
             >
-              GO
+              Pesquisar
             </button>
           </div>
         </form>

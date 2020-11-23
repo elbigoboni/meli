@@ -24,7 +24,6 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
 
   const getProducts = async () => {
     const productsJson = await ApiItem(productId);
-    console.log(productsJson);
     setProduct(productsJson);
   };
 

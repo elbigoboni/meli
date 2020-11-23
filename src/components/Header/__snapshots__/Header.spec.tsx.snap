@@ -22,7 +22,7 @@ exports[`<Header /> Render should render correctly 1`] = `
           />
         </a>
         <form
-          class="sc-bdfBwQ dTFHcn"
+          class="sc-bdfBwQ bEMKDs"
           data-testid="search box"
         >
           <div
@@ -36,9 +36,10 @@ exports[`<Header /> Render should render correctly 1`] = `
               value=""
             />
             <button
-              class="sc-dlfnbm rdVjc"
+              class="sc-dlfnbm groCHX"
+              type="submit"
             >
-              GO
+              Pesquisar
             </button>
           </div>
         </form>
