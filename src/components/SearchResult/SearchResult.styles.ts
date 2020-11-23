@@ -9,9 +9,10 @@ export const Box = styled.div`
   padding-bottom: ${dsVariables.spaces.small}px;
   padding-top: ${dsVariables.spaces.small}px;
   border-radius: 5px;
+  will-change: box-shadow, transform, background;
   &:hover {
     background: white;
-    transform: scale(1.07);
+    transform: scale(0.97);
     box-shadow: 0px 5px 200px 0px rgba(0, 0, 0, 0.1),
       0px 10px 100px 0px rgba(0, 0, 0, 0.1);
   }

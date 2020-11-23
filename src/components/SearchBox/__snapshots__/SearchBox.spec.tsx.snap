@@ -3,21 +3,21 @@
 exports[`<SearchBox /> Render should render correctly 1`] = `
 <div>
   <form
-    class="sc-bdfBwQ ggUMEn"
+    class="sc-bdfBwQ dTFHcn"
     data-testid="search box"
   >
     <div
       class="sc-hKgILt gFyfpC"
     >
       <input
-        class="sc-gsTCUz iPwkQd"
+        class="sc-gsTCUz zcmxu"
         data-testid="search field"
         placeholder="Nunca dejes de buscar"
         type="text"
         value=""
       />
       <button
-        class="sc-dlfnbm daFmpW"
+        class="sc-dlfnbm rdVjc"
       >
         GO
       </button>

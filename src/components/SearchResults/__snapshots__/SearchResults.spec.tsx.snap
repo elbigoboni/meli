@@ -3,7 +3,17 @@
 exports[`<SearchResults /> Render should render correctly 1`] = `
 <div>
   <div
-    class="sc-fubCfw iaiWza"
-  />
+    class="sc-iqHYGH hMItIC"
+  >
+    <img
+      class="sc-jrAGrp kXylFK"
+      src="/images/loading.svg"
+    />
+    <p
+      class="sc-kEjbxe knsIIa"
+    >
+      Carregando. Aguarde, por favor.
+    </p>
+  </div>
 </div>
 `;

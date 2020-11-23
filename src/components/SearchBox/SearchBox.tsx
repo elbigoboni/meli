@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { Button, Container, Form, SearchInput } from "./SearchBox.styles";
 
 interface SearchBoxProps {
@@ -27,7 +27,7 @@ const SearchBox: React.FC<SearchBoxProps> = ({
           }}
           placeholder={placeholder}
         />
-        <Button>GO</Button>
+        <Button type="submit">Pesquisar</Button>
       </Container>
     </Form>
   );

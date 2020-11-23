@@ -18,25 +18,25 @@ exports[`<Header /> Render should render correctly 1`] = `
           <img
             class="sc-gKsewC fVMCuu"
             data-testid="logo"
-            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
+            src="/images/Logo_ML@2x.png"
           />
         </a>
         <form
-          class="sc-bdfBwQ ggUMEn"
+          class="sc-bdfBwQ dTFHcn"
           data-testid="search box"
         >
           <div
             class="sc-hKgILt gFyfpC"
           >
             <input
-              class="sc-gsTCUz iPwkQd"
+              class="sc-gsTCUz zcmxu"
               data-testid="search field"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-dlfnbm daFmpW"
+              class="sc-dlfnbm rdVjc"
             >
               GO
             </button>

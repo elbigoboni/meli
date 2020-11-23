@@ -3,40 +3,40 @@
 exports[`<Routes /> Render should render correctly 1`] = `
 <div>
   <header
-    class="sc-fKFyDc dsbHy"
+    class="sc-iJuUWI kNRSja"
   >
     <header
       class="sc-iqHYGH fCINnt"
     >
       <div
-        class="sc-iwyYcG bbVDLA"
+        class="sc-ezrdKe kShTdh"
       >
         <a
           data-testid="link to home"
           href="/"
         >
           <img
-            class="sc-bBXqnf rUUAJ"
+            class="sc-giIncl fhSfPO"
             data-testid="logo"
-            src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo__small@2x.png"
+            src="/images/Logo_ML@2x.png"
           />
         </a>
         <form
-          class="sc-dIUggk dMluMA"
+          class="sc-bBXqnf hoySHm"
           data-testid="search box"
         >
           <div
-            class="sc-kfzAmx hwjnJI"
+            class="sc-lmoMRL kzUTia"
           >
             <input
-              class="sc-hHftDr hUtHzF"
+              class="sc-iwyYcG jCDFlQ"
               data-testid="search field"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-dmlrTW dysPeN"
+              class="sc-cxFLnm fuqZhF"
             >
               GO
             </button>
@@ -47,6 +47,11 @@ exports[`<Routes /> Render should render correctly 1`] = `
   </header>
   <header
     class="sc-iqHYGH fCINnt"
-  />
+  >
+    <img
+      class="sc-fKFyDc dqlKDa"
+      src="/images/shopping.svg"
+    />
+  </header>
 </div>
 `;
