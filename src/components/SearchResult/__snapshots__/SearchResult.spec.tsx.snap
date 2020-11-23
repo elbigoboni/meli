@@ -6,28 +6,28 @@ exports[`<SearchResult /> Render should render correctly 1`] = `
     href="/item/ml1762712761"
   >
     <div
-      class="sc-gsTCUz blUEQb"
+      class="sc-gsTCUz bRayvk"
     >
       <div
-        class="sc-dlfnbm gnaxzg"
+        class="sc-dlfnbm gPxXLx"
       >
         <img
           alt="Imagem"
-          class="sc-hKgILt jqJVDO"
+          class="sc-hKgILt hBoBKD"
           src="string"
         />
       </div>
       <div
-        class="sc-fubCfw AHFDg"
+        class="sc-fubCfw kvaFFw"
       >
-        <p
+        <span
           class="sc-iBPRYJ dWHJvy"
         >
           ARS 1,200
           <div
             class="sc-gKsewC kCoKrp"
           />
-        </p>
+        </span>
         <h3
           class="sc-eCssSg hMINUV"
         >
@@ -35,7 +35,7 @@ exports[`<SearchResult /> Render should render correctly 1`] = `
         </h3>
       </div>
       <span
-        class="sc-jSgupP iqPXKI"
+        class="sc-jSgupP ehmssr"
       >
         Buenos Aires
       </span>

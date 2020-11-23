@@ -12,6 +12,7 @@ import {
   Extra,
   Image,
   ImageContainer,
+  Intro,
   Price,
   ProductContainer,
   Title,
@@ -37,22 +38,24 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
     <>
       <Breadcrumb path={product.item.categories} />
       <Box>
-        <ImageContainer>
-          <Image src={product.item.thumbnail} />
-        </ImageContainer>
-        <ProductContainer>
-          <Extra>
-            {product.item.condition} - {product.sold_quantity} vendidos
-          </Extra>
-          <Title>{product.item.title}</Title>
-          <Price>
-            <Currency
-              currency={product.item.price.currency}
-              value={product.item.price.amount}
-            />
-          </Price>
-          <Button>Comprar</Button>
-        </ProductContainer>
+        <Intro>
+          <ImageContainer>
+            <Image src={product.item.thumbnail} />
+          </ImageContainer>
+          <ProductContainer>
+            <Extra>
+              {product.item.condition} - {product.sold_quantity} vendidos
+            </Extra>
+            <Title>{product.item.title}</Title>
+            <Price>
+              <Currency
+                currency={product.item.price.currency}
+                value={product.item.price.amount}
+              />
+            </Price>
+            <Button>Comprar</Button>
+          </ProductContainer>
+        </Intro>
         <DescriptionContainer>
           <DescriptionTitle>Descripción del producto</DescriptionTitle>
           <Description>{product.description}</Description>

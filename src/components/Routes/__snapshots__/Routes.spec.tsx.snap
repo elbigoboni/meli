@@ -3,39 +3,39 @@
 exports[`<Routes /> Render should render correctly 1`] = `
 <div>
   <header
-    class="sc-giIncl ewavRJ"
+    class="sc-ezrdKe hIferA"
   >
     <header
-      class="sc-crrsfI UTahY"
+      class="sc-dQppl bXJapD"
     >
       <div
-        class="sc-bYEvPH hgogMm"
+        class="sc-kLgntA dksyXB"
       >
         <a
           data-testid="link to home"
           href="/"
         >
           <div
-            class="sc-ezrdKe eMuzvm"
+            class="sc-bYEvPH ftjZEp"
             data-testid="logo"
           />
         </a>
         <form
-          class="sc-iwyYcG jIlhmi"
+          class="sc-cxFLnm jxjpIi"
           data-testid="search box"
         >
           <div
-            class="sc-iJuUWI JKMUy"
+            class="sc-giIncl hiDBSR"
           >
             <input
-              class="sc-cxFLnm fQkIjQ"
+              class="sc-lmoMRL hLyPhv"
               data-testid="search field"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-lmoMRL jjNwBs"
+              class="sc-iJuUWI jRaWQg"
               type="submit"
             >
               Pesquisar
@@ -46,10 +46,10 @@ exports[`<Routes /> Render should render correctly 1`] = `
     </header>
   </header>
   <header
-    class="sc-crrsfI UTahY"
+    class="sc-dQppl bXJapD"
   >
     <img
-      class="sc-bBXqnf dvlzMi"
+      class="sc-iwyYcG eZXpLx"
       src="/images/shopping.svg"
     />
   </header>

@@ -3,7 +3,7 @@
 exports[`<Wrapper /> Render should render correctly 1`] = `
 <div>
   <header
-    class="sc-bdfBwQ jeKwRP"
+    class="sc-bdfBwQ jjqhxy"
   />
 </div>
 `;

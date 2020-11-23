@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { span } from "../../design-system/grid";
+import { spanNarrow, span, gutter, spanFull } from "../../design-system/grid";
 import { asset } from "../../design-system/util";
 import dsVariables from "../../design-system/variables";
 
@@ -14,23 +14,23 @@ export const Box = styled.div`
   &:hover {
     background: white;
     transform: scale(0.97);
-    box-shadow: 0px 5px 200px 0px rgba(0, 0, 0, 0.1),
-      0px 10px 100px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 100px 0px rgba(0, 0, 0, 0.1),
+      0px 10px 10px 0px rgba(0, 0, 0, 0.05);
   }
 `;
 
 export const ImageContent = styled.div`
-  width: ${span(2)};
-  margin-right: ${dsVariables.spaces.small}px;
+  flex-basis: ${spanNarrow(2)};
+  margin-right: ${gutter};
   margin-top: -${dsVariables.spaces.small}px;
   margin-left: ${dsVariables.spaces.small}px;
 `;
 
 export const Image = styled.img`
-  border-radius: 5px;
+  border-radius: 4px;
   flex: 0;
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   object-fit: contain;
   margin-top: ${dsVariables.spaces.small}px;
 `;
@@ -42,12 +42,10 @@ export const Title = styled.h3`
 
 export const Location = styled.span`
   font-size: 12px;
-  padding-left: 100px;
-  padding-right: 200px;
   color: ${dsVariables.colors.dustyGray};
   flex: 0;
-  width: ${span(2)};
   white-space: nowrap;
+  flex-basis: ${span(2)};
 `;
 
 export const FreeShipping = styled.div`
@@ -55,7 +53,7 @@ export const FreeShipping = styled.div`
   margin-left: ${dsVariables.spaces.small / 2}px;
 `;
 
-export const Price = styled.p`
+export const Price = styled.span`
   font-size: 25px;
   margin-bottom: ${dsVariables.spaces.medium}px;
   display: flex;
@@ -63,5 +61,6 @@ export const Price = styled.p`
 `;
 
 export const ProductContent = styled.div`
-  flex: 1;
+  flex-basis: ${span(4)};
+  margin-right: ${spanFull(2)};
 `;

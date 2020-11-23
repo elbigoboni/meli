@@ -1,11 +1,15 @@
 import styled from "styled-components";
-import { span } from "../../design-system/grid";
+import { gutter, gutterSize, span, spanNarrow } from "../../design-system/grid";
 import dsVariables from "../../design-system/variables";
 
 export const Box = styled.div`
   background-color: white;
   padding: ${dsVariables.spaces.medium}px;
   margin-top: ${dsVariables.spaces.small}px;
+  border-radius: 4px;
+`;
+
+export const Intro = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
@@ -40,18 +44,18 @@ export const Description = styled.p`
 `;
 
 export const ImageContainer = styled.div`
-  width: 70%;
+  flex-basis: ${spanNarrow(7)};
+  margin-right: ${gutter()};
   margin-bottom: ${dsVariables.spaces.small * 4}px;
-  margin-right: ${dsVariables.spaces.small}px;
 `;
 
 export const ProductContainer = styled.div`
-  width: ${span(3, 10, dsVariables.spaces.small)};
+  flex-basis: ${span(3)};
 `;
 
 export const DescriptionContainer = styled.div`
-  width: ${span(7)};
-  margin-right: ${dsVariables.spaces.small}px;
+  width: ${spanNarrow(7)};
+  margin-right: ${gutter()};
 `;
 
 export const Image = styled.img`
