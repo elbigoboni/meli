@@ -17,7 +17,7 @@ exports[`<SearchBox /> Render should render correctly 1`] = `
         value=""
       />
       <button
-        class="sc-dlfnbm groCHX"
+        class="sc-dlfnbm kDRWiC"
         type="submit"
       >
         Pesquisar

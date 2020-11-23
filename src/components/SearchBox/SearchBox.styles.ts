@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { asset } from "../../design-system/util";
 import dsVariables from "../../design-system/variables";
 
 const Form = styled.form`
@@ -26,14 +27,13 @@ const SearchInput = styled.input.attrs({
 `;
 
 const Button = styled.button`
+  ${asset("ic_search", 20, 20, false)}
   width: 50px;
   height: 50px;
   border: 0;
   color: black;
   cursor: pointer;
-  background: url(/images/ic_Search@2x.png) no-repeat center center;
   background-color: ${dsVariables.colors.gallery};
-  background-size: 20px 20px;
   font-size: 0px;
   &:focus,
   &:hover {

@@ -15,10 +15,9 @@ exports[`<Routes /> Render should render correctly 1`] = `
           data-testid="link to home"
           href="/"
         >
-          <img
-            class="sc-ezrdKe heJdPP"
+          <div
+            class="sc-ezrdKe eMuzvm"
             data-testid="logo"
-            src="/images/Logo_ML@2x.png"
           />
         </a>
         <form
@@ -36,7 +35,7 @@ exports[`<Routes /> Render should render correctly 1`] = `
               value=""
             />
             <button
-              class="sc-lmoMRL dlarJl"
+              class="sc-lmoMRL jjNwBs"
               type="submit"
             >
               Pesquisar

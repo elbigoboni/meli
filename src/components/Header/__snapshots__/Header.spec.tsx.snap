@@ -15,10 +15,9 @@ exports[`<Header /> Render should render correctly 1`] = `
           data-testid="link to home"
           href="/"
         >
-          <img
-            class="sc-gKsewC fVMCuu"
+          <div
+            class="sc-gKsewC aYYIb"
             data-testid="logo"
-            src="/images/Logo_ML@2x.png"
           />
         </a>
         <form
@@ -36,7 +35,7 @@ exports[`<Header /> Render should render correctly 1`] = `
               value=""
             />
             <button
-              class="sc-dlfnbm groCHX"
+              class="sc-dlfnbm kDRWiC"
               type="submit"
             >
               Pesquisar

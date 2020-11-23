@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { asset } from "../../design-system/util";
 import dsVariables from "../../design-system/variables";
 
 const Box = styled.header`
@@ -6,10 +7,10 @@ const Box = styled.header`
   padding: 10px;
 `;
 
-const Logo = styled.img`
-  width: 50px;
+const Logo = styled.div`
   flex: 0;
   margin-right: 20px;
+  ${asset("Logo_ML", 53, 36)}
 `;
 
 const Row = styled.div`

@@ -20,10 +20,6 @@ describe("<Header />", () => {
       const linkElement = screen.getByTestId("link to home");
       expect(linkElement).toHaveAttribute("href", "/");
     });
-    test("should render logo correctly", () => {
-      const logo = screen.getByTestId("logo");
-      expect(logo).toHaveAttribute("src", "/images/Logo_ML@2x.png");
-    });
     test("should render <SearchBox />", () => {
       const searchBox = screen.getByTestId("search box");
       expect(searchBox).toBeInTheDocument();
